@@ -1,0 +1,8 @@
+cd C:/spark;
+
+bin/spark-submit --class basicexamples.LineCount --master local file:///Users/sutty/eclipse_workspaces/sandbox/basicexamples/target/basicexamples-0.0.1-SNAPSHOT.jar C:/spark/README.MD
+bin/spark-submit --class basicexamples.FilteredLineCount --master local file:///Users/sutty/eclipse_workspaces/sandbox/basicexamples/target/basicexamples-0.0.1-SNAPSHOT.jar C:/spark/README.MD 
+bin/spark-submit --class basicexamples.WordCount --master local file:///Users/sutty/eclipse_workspaces/sandbox/basicexamples/target/basicexamples-0.0.1-SNAPSHOT.jar C:/spark/README.MD C:/Users/sutty/sparkout/wordcountJ
+
+bin/spark-submit --class basicexamples.InnerJoin --master local file:///Users/sutty/eclipse_workspaces/sandbox/basicexamples/target/basicexamples-0.0.1-SNAPSHOT.jar
+
